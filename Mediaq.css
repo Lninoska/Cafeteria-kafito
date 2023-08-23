@@ -1,0 +1,64 @@
+
+@media screen and (max-width:1200px) {
+    
+    #cards { 
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap; 
+        align-items: center;
+    }
+    .card { 
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
+
+@media screen and (max-width:720px) {
+    #cards  {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card { 
+        width: 150px;
+        height: 150px;
+    }
+    nav {
+        grid-template-columns: 1fr;
+    }
+    .menu { 
+        display: none;
+    }
+    .menu li { 
+        display: flex;
+        margin: 10px 0;
+    }
+    .menuhamburguesa {
+        display: block;
+        justify-content: left;
+        background-color: none;
+    }
+    #icon-menu {
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .menu a ul li {
+        width: 20px;
+        display: inline;
+    }
+
+    .banner h1 {
+        text-align: center;  
+        padding: 15px ;
+    }
+    .rrss  {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+

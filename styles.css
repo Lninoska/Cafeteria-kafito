@@ -1,0 +1,155 @@
+* { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav { 
+    background-color: #bf2828;
+}
+
+a { 
+    color: #fff;
+    text-decoration: none;
+}
+
+
+h1 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer { 
+    background-color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+
+#icon-menu { 
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    display: none;
+}
+
+
+.menu a {
+    display: block;
+    font-size: 16px;
+}
+
+.menu :hover {
+    background-color: #fff;
+    color: #bf2828;
+    font-weight: bold; 
+}
+
+.banner { 
+    background-image: url(img/pexels-marta-dzedyshko-2067628.jpg);
+    background-size: cover;
+    background-position: 50%;
+}    
+
+.banner {
+    height: 550px;
+    width: 100%;
+}
+
+.banner h1 { 
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    padding: 200px 120px;
+}
+
+.carta {
+    font-size: 40px;
+    text-align: center;
+    color: #BF2928;
+    padding: 20px;
+}
+
+.card { 
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--img);
+    background-size: cover;
+
+}
+#cards { 
+    background: #fff;
+    height: 350px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.conten {
+    height: 100%;
+    width: 100%;
+    background: rgba (0, 0, 0, 10);
+    opacity: 0;
+    transition: .5s;
+}
+
+.conten a, h2 { 
+    color: rgba (255, 255, 255, 8);
+}
+.conten h2 { 
+    padding: 120px 120px;
+}
+
+
+.card:hover .conten {
+    opacity: 5;
+}
+
+.footer a { 
+    color: #fff;
+}
+
+.footer a:hover { 
+    color: #bf2828;
+}
+
+
+.footer ul, li { 
+    list-style-type: none;
+}
+
+.footer ul, li {
+    text-align: center;
+}
+
+.footer h2:hover {
+    color: #bf2828;
+}
+
+.rrss img { 
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.rrsstitulo { 
+    color: #fff;
+    text-align: center;
+}
